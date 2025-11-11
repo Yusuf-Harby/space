@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget {
-  const Login({super.key});
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key});
   static const String pageRoute = 'Login Screen';
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-    );
+    return Scaffold(backgroundColor: Colors.amber);
   }
 }
