@@ -5,6 +5,15 @@ class LoginScreen extends StatelessWidget {
   static const String pageRoute = 'Login Screen';
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.amber);
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/backgrounds/Login.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
+    );
   }
 }

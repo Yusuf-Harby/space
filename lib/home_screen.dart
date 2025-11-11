@@ -6,7 +6,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple,
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/backgrounds/Home.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
     );
   }
 }

@@ -14,7 +14,7 @@ class SpaceApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: LoginScreen.pageRoute,
+      initialRoute: HomeScreen.pageRoute,
       routes: {
         LoginScreen.pageRoute : (_) => LoginScreen(),
         PlanetDetailsScreen.pageRoute : (_) => PlanetDetailsScreen(),
