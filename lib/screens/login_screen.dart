@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:space/custom_matrial_button.dart';
+import 'package:space/widgets/custom_matrial_button.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

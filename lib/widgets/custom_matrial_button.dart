@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:space/app_colors.dart';
+import 'package:space/utils/app_colors.dart';
 
 class CustomMatrialButton extends StatelessWidget {
   const CustomMatrialButton({

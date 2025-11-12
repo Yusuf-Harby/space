@@ -12,7 +12,7 @@ class Planet {
     required this.gravity,
     required this.surfaceAreaKm2,
   });
-  
+
   final String planetName;
   final String pngImage;
   final String title;

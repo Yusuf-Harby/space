@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:space/app_colors.dart';
-import 'package:space/planet.dart';
+import 'package:space/utils/app_colors.dart';
+import 'package:space/models/planet.dart';
 
 class PlanetDetailsScreen extends StatelessWidget {
   const PlanetDetailsScreen({super.key});

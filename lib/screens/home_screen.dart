@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:space/app_colors.dart';
-import 'package:space/custom_matrial_button.dart';
-import 'package:space/planet.dart';
-import 'package:space/planet_details_screen.dart';
+import 'package:space/utils/app_colors.dart';
+import 'package:space/widgets/custom_matrial_button.dart';
+import 'package:space/models/planet.dart';
+import 'package:space/screens/planet_details_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

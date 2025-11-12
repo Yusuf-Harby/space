@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:space/home_screen.dart';
-import 'package:space/login_screen.dart';
-import 'package:space/planet_details_screen.dart';
+import 'package:space/screens/home_screen.dart';
+import 'package:space/screens/login_screen.dart';
+import 'package:space/screens/planet_details_screen.dart';
 
-void main(){
+void main() {
   runApp(SpaceApp());
 }
 
@@ -16,9 +16,9 @@ class SpaceApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: LoginScreen.pageRoute,
       routes: {
-        LoginScreen.pageRoute : (_) => LoginScreen(),
-        PlanetDetailsScreen.pageRoute : (_) => PlanetDetailsScreen(),
-        HomeScreen.pageRoute : (_) => HomeScreen(),
+        LoginScreen.pageRoute: (_) => LoginScreen(),
+        PlanetDetailsScreen.pageRoute: (_) => PlanetDetailsScreen(),
+        HomeScreen.pageRoute: (_) => HomeScreen(),
       },
     );
   }
