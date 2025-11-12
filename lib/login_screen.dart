@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:space/custom_matrial_button.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -6,13 +7,21 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/images/backgrounds/Login.png'),
+      body: Stack(
+        children: [
+          Image.asset(
+            'assets/images/backgrounds/Login.png',
+            width: double.infinity,
+            height: double.infinity,
             fit: BoxFit.cover,
           ),
-        ),
+          CustomMatrialButton(
+            text: 'Explore',
+            onPressed: () {
+              Navigator.of(context).pushReplacementNamed('Home Screen');
+            },
+          ),
+        ],
       ),
     );
   }
