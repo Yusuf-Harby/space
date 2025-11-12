@@ -180,8 +180,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: double.infinity,
                   height: 339 / 812 * size.height,
                   child: PageView.builder(
+                    onPageChanged: (value) {
+                      setState(() {
+                        index = value;
+                      });
+                    },
                     itemBuilder: (_, index) {
-                      this.index = index;
                       return Image.asset(
                         planets[index].pngImage,
                         width: 342 / 375 * size.width,
